@@ -7,11 +7,9 @@
 
 /* Brand Button Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Only include brand-specific button styling here */
+/* Only include brand-specific button styling here.
+   The color/background/border plumbing lives in style.css. */
 .button,button {
-  color:var(--button-text,#000000);
-  background-color:var(--button-background,transparent);
-  border:var(--button-border,none);
   transition:filter 0.2s ease,transform 0.2s ease;
 }
 
@@ -59,6 +57,13 @@
   --button-border:1px solid #FFFFFF;
 }
 
+/* Babylist */
+.button-babylist {
+	--button-text:#FFFFFF;
+	--button-background:#6E3264;
+	--button-border:1px solid #FFFFFF;
+}
+
 /* Bandsintown */
 .button-bandsintown {
   --button-text:#FFFFFF;
@@ -101,6 +106,12 @@
   --button-border:1px solid #212121;
 }
 
+/* Codeberg */
+.button-codeberg {
+  --button-text:#FFFFFF;
+  --button-background:#2185D0;
+}
+
 /* Codepen */
 .button-codepen {
   --button-text:#000000;
@@ -128,6 +139,13 @@
   --button-background:#ED5C47;
 }
 
+/* Epic Games */
+.button-epicgames {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
+}
+
 /* Filmweb */
 .button-filmweb {
   --button-text:#FFFFFF;
@@ -135,11 +153,24 @@
   --button-border:1px solid #FFFFFF;
 }
 
+/* Flashes */
+.button-flashes {
+  --button-text:#FFFFFF;
+  background-image:linear-gradient(160deg, #022869, #0045B4, #19A5F5);
+}
+
 /* GOG */
 .button-gog {
   --button-text:#FFFFFF;
   --button-background:#303030;
   --button-border:1px solid #FFFFFF;
+}
+
+/* Gravatar */
+.button-gravatar {
+  --button-text:#101517;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #E0E0E0;
 }
 
 /* Guilded */
@@ -174,6 +205,20 @@
   --button-background:#FA5C5C;
 }
 
+/* Keybase */
+.button-keybase {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
+}
+
+/* Knocket */
+.button-knocket {
+  --button-text:#DFF362;
+  --button-background:#0B1A0F;
+  --button-border:1px solid #FFFFFF;
+}
+
 /* Layers */
 .button-layers {
   --button-text:#000000;
@@ -201,8 +246,8 @@
   --button-border:1px solid #000000;
 }
 
-/* Matrix */
-.button-matrix {
+/* Matrix Alt */
+.button-matrix-alt {
   --button-text:#FFFFFF;
   --button-background:#000000;
   --button-border:1px solid #FFFFFF;
@@ -218,6 +263,13 @@
 .button-mixcloud {
   --button-text:#FFFFFF;
   --button-background:#5000FF;
+}
+
+/* MusicBrainz */
+.button-musicbrainz {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
 /* MyAnimeList */
@@ -347,6 +399,20 @@
   --button-background:#EC008C;
 }
 
+/* SimpleX Chat */
+.button-simplex {
+  --button-text:#000000;
+  --button-background:#F3F6F7;
+  --button-border: 1px solid #000000;
+}
+
+/* SimpleX Chat Alt */
+.button-simplex-alt {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+  --button-border: 1px solid #FFFFFF;
+}
+
 /* Skoob */
 .button-skoob {
   --button-text:#FFFFFF;
@@ -357,6 +423,12 @@
 .button-spacehey {
   --button-text:#FFFFFF;
   --button-background:#3234CF;
+}
+
+/* Speedrun.com */
+.button.button-speedrun {
+	--button-text: #FFFFFF;
+	--button-background:#199C77;
 }
 
 /* Tidal */
@@ -389,6 +461,12 @@
   --button-text:#FFFFFF;
   --button-background:#000000;
   --button-border:1px solid #FFFFFF;
+}
+
+/* Viber */
+.button-viber {
+  --button-text:#FFFFFF;
+  --button-background:#7360F2;
 }
 
 /* VRChat */
@@ -428,4 +506,11 @@
 .button-xing {
   --button-text:#FFFFFF;
   --button-background:#026466;
+}
+
+/* Zalo */
+.button-zalo {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #0068FF;
 }
